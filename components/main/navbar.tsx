@@ -24,7 +24,7 @@ export const Navbar = () => {
             className="cursor-pointer hidden md:block lg:block"
           />
           <span className=" md:block text-white font-bold ml-2">
-            Abdul Rahman | Devxora
+            Badal Saxena 
           </span>
         </Link>
 

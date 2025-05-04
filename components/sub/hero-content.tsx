@@ -64,12 +64,13 @@ export const HeroContent = () => {
         className="w-full flex justify-center items-center mt-8 md:mt-0"
       >
         <Image
-          src="/hero-bg.svg"
-          alt="work icons"
-          height={400}
-          width={400}
+          src="/badal.png"
+          alt="Badal Saxena"
+          height={500}
+          width={500}
           draggable={false}
-          className="select-none drop-shadow-lg sm:h-[450px] sm:w-[450px] md:h-[500px] md:w-[500px]"
+          className="select-none rounded-full border-4 border-purple-500/50 shadow-2xl shadow-purple-500/20 h-[300px] w-[300px] sm:h-[350px] sm:w-[350px] md:h-[400px] md:w-[400px] object-cover"
+          priority
         />
       </motion.div>
     </motion.div>

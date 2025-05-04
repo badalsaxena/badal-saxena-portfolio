@@ -87,17 +87,17 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://instagram.com/badalsaxena12",
   },
   {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
+    name: "LinkedIn",
+    icon: RxLinkedinLogo,
+    link: "https://www.linkedin.com/in/badalsaxena/",
   },
   {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    name: "GitHub",
+    icon: RxGithubLogo,
+    link: "https://github.com/badalsaxena",
   },
 ] as const;
 
@@ -175,23 +175,20 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "🛒 Tekisky Mart – The Future of eCommerce",
-    
-    image: "/projects/project-1.webp",
-    link: "https://tekiskymart.com/",
+    title: "Docsmart",
+    image: "/projects/project1.png",
+    link: "https://github.com/badalsaxena",
   },
   {
-    title: "Tekisky – The Future of Tech",
-
-    image: "/projects/project-2.webp",
-    link: "https://tekisky.com/",
+    title: "indipixel",
+    image: "/projects/project2.jpg",
+    link: "https://indipixel.netlify.app",
   },
   {
-    title: "Speedline Auto Parts – The Future of Auto Parts",
-   
-    image: "/projects/project-3.webp",
-    link: "https://speedlineautoparts.netlify.app/",
-  },
+    title: "PacMan",
+    image: "/projects/project3.png",
+    link: "https://github.com/badalsaxena",
+  }
 ] as const;
 
 export const FOOTER_DATA = [
@@ -214,7 +211,7 @@ export const FOOTER_DATA = [
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://www.linkedin.com/in/abdul-raheman-389597281/",
+        link: "https://www.linkedin.com/in/BadalSaxena/",
       },
     ],
   },
@@ -243,6 +240,10 @@ export const NAV_LINKS = [
   {
     title: "Projects",
     link: "#projects",
+  },
+  {
+    title: "Achievements",
+    link: "#achievements",
   },
 ] as const;
 
