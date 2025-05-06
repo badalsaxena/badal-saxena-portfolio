@@ -1,15 +1,26 @@
-import { useState } from "react";
+"use client";
+import { useState, useEffect } from "react";
 
 export const GetInTouch = () => {
+  console.log("Rendering GetInTouch component");
+  
+  // Add debug effect
+  useEffect(() => {
+    console.log("GetInTouch component mounted");
+    debugger; // This will pause execution in browser dev tools
+  }, []);
+  
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    console.log(`Field ${e.target.name} changed to: ${e.target.value}`);
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    console.log("Form submitted with values:", form);
     setSubmitted(true);
     // Here you can add integration with EmailJS, Formspree, etc.
   };

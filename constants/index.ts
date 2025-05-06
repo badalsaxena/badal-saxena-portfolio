@@ -7,6 +7,14 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
+// Define the skill type
+type Skill = {
+  skill_name: string;
+  image: string;
+  width: number;
+  height: number;
+};
+
 export const SKILL_DATA = [
   {
     skill_name: "HTML",
@@ -166,10 +174,10 @@ export const BACKEND_SKILL = [
 
 ] as const;
 
-export const FULLSTACK_SKILL = [
+export const FULLSTACK_SKILL: Skill[] = [
 ] as const;
 
-export const OTHER_SKILL = [
+export const OTHER_SKILL: Skill[] = [
 
 ] as const;
 
@@ -195,19 +203,16 @@ export const FOOTER_DATA = [
   {
     title: "Community",
     data: [
-
       {
         name: "GitHub",
         icon: RxGithubLogo,
         link: "https://github.com",
       },
-
     ],
   },
   {
     title: "Social Media",
     data: [
-
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
@@ -218,11 +223,15 @@ export const FOOTER_DATA = [
   {
     title: "About",
     data: [
-   
       {
         name: "Contact Me",
         icon: null,
         link: "mailto:arrahmanofficial9@gmail.com",
+      },
+      {
+        name: "Get in Touch",
+        icon: null,
+        link: "/get-in-touch",
       },
     ],
   },
@@ -244,6 +253,10 @@ export const NAV_LINKS = [
   {
     title: "Achievements",
     link: "#achievements",
+  },
+  {
+    title: "Get in Touch",
+    link: "/get-in-touch",
   },
 ] as const;
 
