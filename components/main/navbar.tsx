@@ -29,7 +29,7 @@ export const Navbar = () => {
             </div>
           </div>
           <span className="text-white font-bold text-sm sm:text-base md:text-lg ml-1 sm:ml-2 group-hover:text-cyan-300 transition-colors duration-300">
-            Badal's Portfolio 
+            Badal&apos;s Portfolio 
           </span>
         </Link>
 

@@ -1,4 +1,5 @@
 "use client";
+
 import { GetInTouch } from "@/components/main/get-in-touch";
 import { useEffect } from "react";
 

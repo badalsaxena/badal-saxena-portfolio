@@ -37,7 +37,7 @@ export const Footer = () => {
           {/* Brand Column */}
           <div className="col-span-1 mt-4 md:mt-0">
             <h2 className="text-xl sm:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-500 mb-3 sm:mb-4">
-              Badal's Portfolio
+              Badal&apos;s Portfolio
             </h2>
             <p className="text-sm sm:text-base text-gray-400 mb-6 max-w-md">
               Your gateway to creative web development and modern frontend solutions.
@@ -48,7 +48,7 @@ export const Footer = () => {
         {/* Footer Bottom - Copyright & Social */}
         <div className="mt-10 sm:mt-16 pt-6 sm:pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-xs sm:text-sm mb-4 md:mb-0 text-center md:text-left">
-            &copy; {new Date().getFullYear()} Badal's Portfolio. All rights reserved.
+            &copy; {new Date().getFullYear()} Badal&apos;s Portfolio. All rights reserved.
           </p>
           
           <div className="flex flex-wrap justify-center gap-4 sm:gap-0 sm:space-x-6">
