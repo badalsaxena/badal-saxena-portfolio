@@ -61,15 +61,17 @@ export const HeroContent = () => {
       {/* Right Side Image */}
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full flex justify-center items-center"
+        className="w-full flex justify-center items-center relative"
       >
+        {/* Glowing gradient effect behind the image */}
+        <div className="absolute z-0 w-[220px] h-[220px] xs:w-[300px] xs:h-[300px] sm:w-[350px] sm:h-[350px] md:w-[420px] md:h-[420px] lg:w-[480px] lg:h-[480px] rounded-full bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-400 blur-3xl opacity-70"></div>
         <Image
           src="/badal.png"
           alt="Badal's Portfolio"
           height={500}
           width={500}
           draggable={false}
-          className="select-none rounded-full border-4 border-purple-500/50 shadow-2xl shadow-purple-500/20 h-[180px] w-[180px] xs:h-[240px] xs:w-[240px] sm:h-[280px] sm:w-[280px] md:h-[350px] md:w-[350px] lg:h-[400px] lg:w-[400px] object-cover"
+          className="select-none relative z-10 rounded-full border-8 border-transparent bg-clip-padding bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-400 shadow-2xl shadow-cyan-500/40 h-[180px] w-[180px] xs:h-[240px] xs:w-[240px] sm:h-[280px] sm:w-[280px] md:h-[350px] md:w-[350px] lg:h-[400px] lg:w-[400px] object-cover"
           priority
         />
       </motion.div>

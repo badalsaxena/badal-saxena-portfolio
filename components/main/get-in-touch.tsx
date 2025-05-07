@@ -27,7 +27,7 @@ export const GetInTouch = () => {
   };
 
   return (
-    <section className="flex flex-col items-center justify-center min-h-[70vh] w-full bg-transparent py-16 px-4">
+    <section id="get-in-touch" className="flex flex-col items-center justify-center min-h-[70vh] w-full bg-transparent py-16 px-4">
       <h1 className="text-4xl md:text-5xl font-bold text-center text-white mb-8">
         Get <span className="text-blue-400">in Touch</span>
       </h1>

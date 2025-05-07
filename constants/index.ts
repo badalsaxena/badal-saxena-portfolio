@@ -256,7 +256,7 @@ export const NAV_LINKS = [
   },
   {
     title: "Get in Touch",
-    link: "/get-in-touch",
+    link: "#get-in-touch",
   },
 ] as const;
 
