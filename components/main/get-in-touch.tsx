@@ -32,8 +32,9 @@ export const GetInTouch = () => {
         Get <span className="text-blue-400">in Touch</span>
       </h1>
       <form
-        onSubmit={handleSubmit}
-        className="w-full max-w-lg bg-black/60 rounded-2xl shadow-2xl p-8 flex flex-col gap-6 border border-purple-500/30 backdrop-blur-md"
+          action="https://formspree.io/f/xyzjwoek" // <-- replace with your own Formspree form ID
+  method="POST"
+  className="w-full max-w-lg bg-black/60 rounded-2xl shadow-2xl p-8 flex flex-col gap-6 border border-purple-500/30 backdrop-blur-md"
       >
         <input
           type="text"

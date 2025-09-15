@@ -8,6 +8,7 @@ import { StarsCanvas } from "@/components/main/star-background";
 import { siteConfig } from "@/config";
 import { cn } from "@/lib/utils";
 import { DebugHelper } from "./debug-helper";
+import { Analytics } from "@vercel/analytics/next";
 
 import "./globals.css";
 
@@ -57,6 +58,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
         <StarsCanvas />
         <Navbar />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>
